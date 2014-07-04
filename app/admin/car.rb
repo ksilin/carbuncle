@@ -1,4 +1,5 @@
 ActiveAdmin.register Car do
+  permit_params :name, :original_offer, :price
 
   
   # See permitted parameters documentation:
